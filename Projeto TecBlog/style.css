@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: gray;
+}
+
+#area-cabecalho {
+    background: #f7b600;
+    padding: 20px;
+    text-align: center;
+}
+
+#topo {
+    background-color: yellow;
+    width: 900px;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menu {
+    padding: 10px 10px;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#area-cabecalho  a:link, #area-cabecalho a:visited{
+    color: black;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    background: white;
+    padding: 4.3px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+
+}
+
+/* **CONTEUDO** */ 
+
+#area-principal {
+    width: 925px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens, .area-lateral {
+    background: #CCC;
+    
+    
+}
+
+#area-postagens {
+    width: 660px;
+    float: right;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 23px;
+}
+
+.area-lateral {
+    width: 240px;
+    float: left;
+}
+
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+
+h4 {
+    background: rgb(218, 212, 212);
+    text-align: center;
+}
+
+#rodape {
+    border: 1px solid red;
+    clear: both;
+}
+h5 {
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+.texto-lateral {
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 2px dotted #CCC;
+    
+
+}
+
+.botao {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    border: 5px solid black;
+}
+
+#clear  {
+    clear: both;
+}
+
+#canto {
+    float: right;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 10px;
+}

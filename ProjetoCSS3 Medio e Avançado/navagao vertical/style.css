@@ -1,0 +1,26 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    background: url('menu.png') no-repeat left bottom;
+    width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-indent: 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: white;
+}
+
+a:hover,.selecionado a {
+    background-position: right bottom;
+    color: white;
+}

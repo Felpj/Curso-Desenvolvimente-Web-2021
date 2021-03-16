@@ -1,0 +1,45 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+ul li {
+    float: left;
+    background: url("fundo-horizontal.png");
+
+}
+
+li a {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('divisor.png') repeat-y;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+a:hover {
+    background: aqua;
+    color: black;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos {
+    background: none;
+    background: #44cade;
+}

@@ -1,0 +1,63 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo {
+    float: right;
+    width: 520px;
+}
+#conteudo-principal {
+    width: 320px;
+    float: left;
+}
+#conteudo-secundario {
+    width: 180px;
+    float: right;
+    background: #d1d1d1;
+    padding: 4px;
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#navegacao {
+    width: 180px;
+    float: left;
+    padding: 20px 0;
+    background: #d1d1d1;
+}
+#navegacao ul{
+    list-style: none;
+}
+#navegacao li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}

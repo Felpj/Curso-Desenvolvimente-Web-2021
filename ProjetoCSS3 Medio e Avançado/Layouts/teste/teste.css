@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+#conteudo {
+    float: right;
+    width: 520px;
+}
+#conteudo-principal {
+    float: left;
+    width: 320px;
+}
+#conteudo-secundario {
+    float: right;
+    width: 180px;
+    padding: 4px;
+    background: silver;
+}
+
+#conteudo-secundario h2,
+#conteudo-secundario h1,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    text-indent: 100px;
+}
+
+#navegacao {
+    float: left;
+    background: royalblue;
+    width: 180px;
+    
+}
+
+#navegacao li a {
+    color: white;
+    text-decoration: none;
+}
+
+#navegacao li {
+    list-style: none;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
