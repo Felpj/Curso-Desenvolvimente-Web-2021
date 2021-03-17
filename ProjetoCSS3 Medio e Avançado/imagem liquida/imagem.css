@@ -4,9 +4,9 @@ body {
 }
 
 #container {
-    width: 85%;
+    width: 960px;
     margin: 0 auto;
-    background: #fff;
+    background: #fff url("coluna.png") repeat-y;
     min-width: 720px;
     max-width: 1280px;
     
@@ -31,9 +31,10 @@ body {
 #conteudo-secundario {
     width: 34%;
     float: right;
-    background: #d1d1d1;
     padding: 4px;
+    background: #d1d1d1;
 }
+
 #conteudo-secundario h1,
 #conteudo-secundario h2,
 #conteudo-secundario h3,
@@ -48,6 +49,7 @@ body {
     float: left;
     padding: 20px 0;
     background: #d1d1d1;
+    
 }
 #navegacao ul{
     list-style: none;
