@@ -34,10 +34,12 @@ input {
 
 input.email {
     background-image: url('icone-usuario.png');
+    margin-bottom: 25px;
 }
 
 input.senha {
     background-image: url('icone-cadeado.png');
+    margin-bottom: 25px;
 }
 
 input.botao {
@@ -47,6 +49,7 @@ input.botao {
     padding: 5px 20px;
     height: 45px;
     width: 90%;
+    cursor: pointer;
 
     background: linear-gradient(to bottom, #faa600, #f68a00)
 
