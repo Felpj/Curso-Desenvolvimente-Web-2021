@@ -26,6 +26,7 @@ tr.alternado {
 
 tr:hover {
     background: rosybrown;
+    color: white;
 }
 
 .numero {
