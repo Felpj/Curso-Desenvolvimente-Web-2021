@@ -1,0 +1,93 @@
+body , ul , li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: lightblue;
+    align-items: center;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#menu {
+    display: flex;
+    padding: 20px;
+}
+
+#menu li {
+    padding-left: 20px;
+}
+
+
+#flex {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    background: lightcoral;
+}
+
+#flex div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+
+/* GRID 1 */ 
+
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+#grid1 > div:nth-child(n + 4){
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#grid1 > div.anuncio {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    #grid1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #grid1 > div:nth-child(n + 4) {
+        display: block;
+    }
+    #grid1 > div.anuncio {
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+    }
+}
